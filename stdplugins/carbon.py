@@ -62,7 +62,7 @@ async def carbon_api(e):
    await e.client.send_file(
          e.chat_id,
          file,
-         caption="Carbon by [@r4v4n4](https://www.github.com/ravana69/pornhub)",
+         caption="Carbon by [@iamlordutkarsh](https://www.github.com/iamlordutkarsh/Purnhob)",
          force_document=False,
          reply_to=e.message.reply_to_msg_id,
          )
