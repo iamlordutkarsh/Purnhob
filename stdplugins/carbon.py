@@ -19,7 +19,7 @@ import os
 async def carbon_api(e):
  if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
    """ A Wrapper for carbon.now.sh """
-   await e.edit("⬜⬜⬜⬜⬜")
+   await e.edit("Starting.")
    CARBON = 'https://carbon.now.sh/?l={lang}&code={code}'
    CARBONLANG = "en"
    textx = await e.get_reply_message()
