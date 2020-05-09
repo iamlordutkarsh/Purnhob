@@ -31,7 +31,7 @@ async def _(event):
     if text and count != None:
         for spam in range(int(count)):
             await event.reply(text)
-        msg = await event.reply(f".spam 5555 SPAM")
+        msg = await event.reply(f"Done Beru")
         sleep(5)
         await msg.delete()
         status = f"SPAMMED\n```{text}```\n in {chat} ```{count}``` times."
