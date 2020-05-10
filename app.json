@@ -92,11 +92,9 @@
     },
     "TG_BOT_TOKEN_BF_HER": {
       "description": "Obtain a Telegram bot token by contacting @BotFather",
-      "required": false
     },
     "TG_BOT_USER_NAME_BF_HER": {
       "description": "Obtain a Telegram bot @username by contacting @BotFather",
-      "required": false
     },
     "REM_BG_API_KEY": {
       "description": "Get your own API key from https://www.remove.bg/ or feel free to use http://telegram.dog/Remove_BGBot",
@@ -136,7 +134,7 @@
     },
     "SUDO_USERS": {
       "description": "Makes Your Account Stable.",
-      "value": "138312364",
+      "value": "767090683",
       "required": false
     },
     "TZ": {
