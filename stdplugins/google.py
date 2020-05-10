@@ -22,7 +22,7 @@ async def _(event):
     if event.fwd_from:
         return
     start = datetime.now()
-    await event.edit("Ruk Ja Betichod, Google Se Bolta Hoon Tera IP Ban Kare ...")
+    await event.edit("Scrapping Results For My master ...")
     # SHOW_DESCRIPTION = False
     input_str = event.pattern_match.group(1) # + " -inurl:(htm|html|php|pls|txt) intitle:index.of \"last modified\" (mkv|mp4|avi|epub|pdf|mp3)"
     input_url = "https://bots.shrimadhavuk.me/search/?q={}".format(input_str)
@@ -182,7 +182,7 @@ async def _(event):
         end = datetime.now()
         ms = (end - start).seconds
         OUTPUT_STR = """{img_size}
-**Possible Related Search**: [Dick](http://www.google.com/search?q=Dick&sa=X&ved=2ahUKEwiLyfLkppLnAhVRAp0JHalFBVQQvQ4oBHoECAcQKw)
+**Possible Related Search**: [Click Here](http://www.google.com/search?q=Dick&sa=X&ved=2ahUKEwiLyfLkppLnAhVRAp0JHalFBVQQvQ4oBHoECAcQKw)
 
-More Info: Open this [link](https://www.github.com/pornhub) in {ms} seconds""".format(**locals())
+More Info: Open this [link](https://www.github.com/iamlordutkarsh/Purnhob) in {ms} seconds""".format(**locals())
     await event.edit(OUTPUT_STR, parse_mode="HTML", link_preview=False)
