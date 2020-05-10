@@ -33,7 +33,7 @@ class Uniborg(TelegramClient):
             "api_id": 6,
             "api_hash": "eb06d4abfb49dc3eeb1aeb98ae0f581e",
             "device_model": "Iphone 11 Pro Max (Clone)",
-            "app_version": "@r4v4n4",
+            "app_version": "@iamlordutkarsh",
             "lang_code": "ml",
             **kwargs
         }
@@ -84,7 +84,7 @@ class Uniborg(TelegramClient):
         self.me = await self.get_me()
         self.uid = telethon.utils.get_peer_id(self.me)
 
-        self._logger.info(f"lund logged in as {self.uid}")
+        self._logger.info(f"logged in as {self.uid}")
 
 
     def load_plugin(self, shortname):
@@ -109,7 +109,7 @@ class Uniborg(TelegramClient):
 
         spec.loader.exec_module(mod)
         self._plugins[shortname] = mod
-        self._logger.info(f"gandu pligon load ho gaya hai = {shortname}")
+        self._logger.info(f"Plugin Loaded = {shortname}")
 
     def remove_plugin(self, shortname):
         name = self._plugins[shortname].__name__
@@ -120,7 +120,7 @@ class Uniborg(TelegramClient):
                 del self._event_builders[i]
 
         del self._plugins[shortname]
-        self._logger.info(f"betichod pligon remove kar diya hai madarchod = {shortname}")
+        self._logger.info(f"Plugin Removed = {shortname}")
 
     def await_event(self, event_matcher, filter=None):
         fut = asyncio.Future()
