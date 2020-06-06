@@ -18,7 +18,7 @@ async def _(event):
 Pithun {}
 Talethrun {}
  
-**Custom Built Fork**:**https://github.com/iamlordutkarsh/Purnhob**""".format(
+**Custom Built Fork**: https://github.com/iamlordutkarsh/Purnhob """.format(
         sys.version,
         __version__
     )
