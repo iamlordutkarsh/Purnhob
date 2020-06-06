@@ -50,14 +50,14 @@ async def _(event):
     packshortname = f"lordwitcher_bot69{userid}"  # format: Uni_Borg_userid
 
     is_a_s = is_it_animated_sticker(reply_message)
-    file_ext_ns_ion = "ravana_Sticker.png"
+    file_ext_ns_ion = "purnhob_Sticker.png"
     file = await borg.download_file(reply_message.media)
     uploaded_sticker = None
     if is_a_s:
         file_ext_ns_ion = "AnimatedSticker.tgs"
         uploaded_sticker = await borg.upload_file(file, file_name=file_ext_ns_ion)
-        packname = f"ravana_AnimatedStickers"
-        packshortname = f"ravana_Animated"  # format: Uni_Borg_userid
+        packname = f"purnhob_AnimatedStickers"
+        packshortname = f"purnhob_Animated"  # format: Uni_Borg_userid
     elif not is_message_image(reply_message):
         await event.edit("Invalid message type")
         return
@@ -67,7 +67,7 @@ async def _(event):
             sticker.seek(0)
             uploaded_sticker = await borg.upload_file(sticker, file_name=file_ext_ns_ion)
 
-    await event.edit("Witcher Bot Is Stealing Sticker...")
+    await event.edit("Purnhob Bot Is Stealing Sticker...")
 
     async with borg.conversation("@Stickers") as bot_conv:
         now = datetime.datetime.now()
@@ -157,7 +157,7 @@ async def _(event):
                      f"**Emojis In Pack:** {' '.join(pack_emojis)}")
 
 
-@borg.on(admin_cmd("loda ?(.*)"))
+@borg.on(admin_cmd("zipsticker ?(.*)"))
 async def _(event):
     if event.fwd_from:
         return
