@@ -78,67 +78,67 @@ if Config.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
             )
         elif query.startswith("choot"):
             result = builder.article(
-                "@r4v4n4: Bhagwaan Sabko GF De",
-                text=f"[Choot](https://telegra.ph/file/019a2eab3d66d39c92a75.mp4)",
+                "@lordwitcher: Bhagwaan Sabko GF De",
+                text=f"[HUI](https://telegra.ph/file/019a2eab3d66d39c92a75.mp4)",
                 buttons=[],
                 link_preview=True
             )
         elif query.startswith("bhoot"):
             result = builder.article(
-                "@r4v4n4: Bhagwaan Sabko GF De",
-                text=f"[bhoot](https://da.gd/ovpt5)",
+                "@lordwitcher: Bhagwaan Sabko GF De",
+                text=f"[Bhoot](https://da.gd/ovpt5)",
                 buttons=[],
                 link_preview=True
             )
         elif query.startswith("repo"):
             result = builder.article(
-                "@r4v4n4: yeh hai button deploy kar le",
-                text=f"Ganja Sutta on the floor",
+                "@lordwitcher: Yeh hai button deploy kar le",
+                text=f"KAR LE bETA eNJOY",
                 buttons=[
-                    [custom.Button.url("👤Click on the button to deploy pornhub repo👤", "https://github.com/ravana69/Pornhub")],
+                    [custom.Button.url("👤Click on the button to deploy Purnhob repo👤", "https://github.com/iamlordutkarsh/Purnhob")],
                 ],
                 link_preview=True
             )
         elif query.startswith("imdb"):
             result = builder.article(
-                "@r4v4n4: IMDB",
-                text="""**Title:** Choot Ki Raani (1969)
+                "@lordwitcher : IMDB",
+                text="""**Title:** Purnhob Ki Kahani (1969)
 **Rating ⭐️:** 10 / 10
 (5.5 based on 7,610 user ratings) | U | 0h 69min |
 **Release Info:** 14 Feb 1969 (India)
 **Genre:** 🌋 #Adventure 🤣 #Comedy #Family
-**Language:**  #Bhojpuri #English
+**Language:**  #English
 **Country of Origin:**  #India
-**Story Line:** A young man Ravana moves from Bihar to Florida with his dick, where he's compelled to engage in a sux to protect a population of endangered Choots.
-**Director:** Ravana @r4v4n4
-**Writers:** Ravana @r4v4n4
-**Stars:**  Ravana @r4v4n4
+**Story Line:** A Young man Witcher moves from UP to Florida with his dick, where he's compelled to engage in a sux to protect a population of world.
+**Director:** Witcher @lordwitcher
+**Writers:** Witcher @lordwitcher
+**Stars:**  Witcher @lordwitcher
 [Read More ...](https://da.gd/qGtPI)""",
                 buttons=[
-                    [custom.Button.url("Open On IMDB ▶️", "https://da.gd/o5Yy")]
+                    [custom.Button.url("Open On IMDB ▶️", "https://github.com/iamlordutkarsh/Purnhob")]
                 ],
                 link_preview=True
                 )
         else:
             result = builder.article(
                 "© @UniBorg",
-                text="""@r4v4n4 **( Custom Built By** @r4v4n4 **)** 
+                text="""@lordwitcher **( Custom Built By** @lordwitcher **)** 
 **Verified Account:** ✅
-**Official Website:** https://ravanaisdrunk.site.live [⠀](https://telegra.ph/file/b0604ea53360cd3858ec5.mp4)
+**Official Website:** https://developerutkarsh.wordpress.com/
 
-**Pithun 3.8.2 (default, Feb 27 2020, 21:41:26)** 
+**Python 3.8.2 (default, Feb 27 2020, 21:41:26)** 
 **[GCC 7.4.0]**
 **Talethrun 1.11.3**
 
-**Custom Built Fork:** https://github.com/ravana69/Pornhub""",
+**Custom Built Fork:** https://github.com/iamlordutkarsh/Purnhob""",
                 buttons=[
-                    [custom.Button.url("👤Contact Creator👤", "https://telegram.dog/r4v4n4"), custom.Button.url(
+                    [custom.Button.url("👤Contact Creator👤", "https://telegram.dog/lordwitcher"), custom.Button.url(
                         "📼Ravana Audio Memes📼", "https://t.me/tgaudiomemes")],
-                    [custom.Button.url("👨‍💻Source Code👨‍💻", "https://github.com/ravana69/Pornhub"), custom.Button.url(
-                        "❕❗Deploy Me❗❕", "https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2Fravana69%2FPornHub%2F&template=https%3A%2F%2Fgithub.com%2Fravana69%2FPornHub%2F")],
+                    [custom.Button.url("👨‍💻Source Code👨‍💻", "https://github.com/iamlordutkarsh/Purnhob"), custom.Button.url(
+                        "❕❗Deploy Me❗❕", "https://signup.heroku.com/deploy?redirect-url=https%3A%2F%2Fdashboard.heroku.com%2Fnew%3Fbutton-url%3Dhttps%253A%252F%252Fgithub.com%252Fiamlordutkarsh%252FPurnhob%26template%3Dhttps%253A%252F%252Fgithub.com%252Fiamlordutkarsh%252FPurnhob")],
                     [custom.Button.url("🔰Update Fork🔰", "tg://need_update_for_some_feature"), custom.Button.url(
                         "✳️Fork Boost✳️", "tg://some_unsupported_feature"), custom.Button.url(
-                        "📤Cloud Torrent📥", "https://github.com/ravana69/cloudtorrent")]
+                        "📤 Ravana Cloud Torrent📥", "https://github.com/ravana69/cloudtorrent")]
                 ],
                 link_preview=True
             )
@@ -157,7 +157,7 @@ if Config.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
             # https://t.me/TelethonChat/115200
             await event.edit(buttons=buttons)
         else:
-            reply_pop_up_alert = "⚠️ Warning: Don't Press Any Buttons ⚠️\n\nCustom Fork: https://github.com/ravana69/Pornhub\n\n\nNote: Bas kar BetiChod, Maa Ke Laude, Madarchod"
+            reply_pop_up_alert = "⚠️ Warning: Don't Press Any Buttons ⚠️\n\nCustom Fork: https://github.com/iamlordutkarsh/Purnhob\n\n\nNote: Enjoy"
             await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
     @tgbot.on(events.callbackquery.CallbackQuery(  # pylint:disable=E0602
