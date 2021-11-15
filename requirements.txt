@@ -1,5 +1,5 @@
 git+https://github.com/LonamiWebs/Telethon
-pip==20.1
+pip==21.1
 async_generator
 pybase64
 zalgo_text
